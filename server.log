@@ -1,0 +1,26 @@
+
+> enterprise-management-system@1.0.0 start
+> node index.js
+
+Server running on http://localhost:15333
+Enterprise Management System is ready!
+Modules Active: Financial, Customer, Project, Contract, Deposit, Invoice
+MongoDB connection error: MongooseServerSelectionError: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+    at _handleConnectionErrors (/workspace/node_modules/mongoose/lib/connection.js:816:11)
+    at NativeConnection.openUri (/workspace/node_modules/mongoose/lib/connection.js:791:11) {
+  reason: TopologyDescription {
+    type: 'Unknown',
+    servers: Map(1) { 'localhost:27017' => [ServerDescription] },
+    stale: false,
+    compatible: true,
+    heartbeatFrequencyMS: 10000,
+    localThresholdMS: 15,
+    setName: null,
+    maxElectionId: null,
+    maxSetVersion: null,
+    commonWireVersion: 0,
+    logicalSessionTimeoutMinutes: null
+  },
+  code: undefined
+}
+Running in demo mode without database connection

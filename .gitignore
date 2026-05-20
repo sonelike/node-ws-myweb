@@ -1,15 +1,3 @@
-```
-# Dependencies
-node_modules/
+(index.js is a source file, so no additional ignores are needed beyond what might already exist)
 
-# Logs
-*.log
-
-# Environment variables
-.env
-.env.local
-*.env.*
-
-# Package lock file
-package-lock.json
-```
+# No changes needed - index.js is a source file and should not be ignored
