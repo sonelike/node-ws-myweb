@@ -1,17 +1,15 @@
 {
-  "name": "node-ws",
+  "name": "enterprise-management-system",
   "version": "1.0.0",
-  "description": "Node.js Server",
+  "description": "Enterprise Management System with Financial Transaction Management",
   "main": "index.js",
-  "author": "eooce",
-  "license": "GPL-3.0",
-  "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "ws": "^8.14.2",
-    "axios": "^1.12.2"
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "cors": "^2.8.5"
   },
   "engines": {
     "node": ">=14"
